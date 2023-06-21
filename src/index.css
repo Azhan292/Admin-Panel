@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-dark: #252525;
+  --color-white: #ffffff;
+  --color-gray: #d9d9d9;
+  --color-blue-dark: #363070;
+  --color-green: #5baa8b;
+  --color-mehndi: #ceb745;
+  --color-green-light: #8cc6c7;
+  --color-pink: #e59a94;
+  --color-pink-light: #1E1E1E;
+  --color-medium-pink: #f3b5c0;
+  --color-dark-orange: #d06d2c;
+  --color-dark-yellow: #e1a63c;
+  --color-blue: #295ef5;
+  --color-deep-orange: #ea6a45;
+  --color-icon: #959595;
+  --bg-quote-color: #f8f8f8;
+  --bg-uploads: #f3f6ff;
+  --color-black: #1E1E1E;
+  --color-dark-gray:#3d3d41;
+  --color-dark-yellow:#F2C500;
+  
+}

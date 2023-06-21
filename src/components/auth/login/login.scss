@@ -1,0 +1,186 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .login-form {
+    display: flex;
+    min-width: 40%;
+    height: fit-content;
+    background-color: var(--color-black);
+    background-size: cover;
+    border: 10px solid #f2c500;
+    opacity: 0.8;
+    border-radius: 40px;
+    opacity: 0.8;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    @media screen and (max-width: 457px) {
+      border: 5px solid #f2c500;
+      width: 100%;
+    }
+    .logo_img {
+      width: 240px;
+      height: 192px;
+    }
+    img {
+      width: 300px;
+      height: 100px;
+      object-fit: contain;
+    }
+    h2 {
+      text-align: center;
+      color: white;
+    }
+    .fields {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      position: relative;
+      .field-email {
+        width: 350px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 6px;
+        padding-left: 30px;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        @media screen and (max-width: 383px) {
+          width: 300px;
+          padding: 6px;
+          padding-left: 43px;
+          margin-left: 8px;
+      
+          
+        }
+        @media screen and (max-width: 321px) {
+          width: 290px;
+          padding: 6px;
+          padding-left: 43px;
+
+          margin-left: 5px;
+        }
+      }
+      .password-field {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        @media screen and (max-width: 419px) {
+        }
+        .field-password {
+          width: 350px;
+          border: none;
+          border-radius: 5px;
+          outline: none;
+          padding: 6px;
+          padding-left: 30px;
+          font-size: 16px;
+          font-weight: 500;
+          margin-top: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+          @media screen and (max-width: 383px) {
+            width: 300px;
+            padding: 6px;
+            padding-left: 43px;
+
+            margin-left: 8px;
+          }
+          @media screen and (max-width: 321px) {
+            width: 290px;
+            padding: 6px;
+            padding-left: 43px;
+
+            margin-left: 5px;
+          }
+        }
+        .icon-lock {
+          position: absolute;
+          top: 25px;
+          left: 5px;
+          font-size: 20px;
+          @media screen and (max-width: 383px) {
+            left: 20px;
+          }
+          @media screen and (max-width: 347px) {
+            margin-left: 0px;
+          }
+        }
+        .icon-eye {
+          position: absolute;
+          font-size: 23px;
+
+          right: 5px;
+          top: 23px;
+          cursor: pointer;
+          @media screen and (max-width: 383px) {
+            right: 30px;
+          }
+        }
+      }
+      .icon-user {
+        position: absolute;
+        top: 6px;
+        left: 5px;
+        font-size: 20px;
+        @media screen and (max-width: 383px) {
+          left: 20px;
+        }
+      }
+    }
+    .forgot {
+      text-align: right;
+      margin: 5px;
+      font-size: 16px;
+      color: white;
+      cursor: pointer;
+      &:hover {
+        color: #f2c500;
+      }
+    }
+    .btn {
+      padding: 5px;
+      text-align: center;
+      button {
+        padding: 5px;
+        width: 150px;
+        margin: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        color: white;
+        background-color: #f2c500;
+        transition: 0.5s all ease-in-out;
+        border-radius: 5px;
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+}
+#error {
+  color: rgb(185, 17, 17);
+  font-size: 16px;
+}
+// @media screen and (max-width: 600px) {
+//   .login {
+//     .login-form {
+//       width: 95%;
+//       height: 65%;
+//       // .fields {
+//       //   .field-email {
+//       //   }
+//       //   .password-field {
+//       //   }
+//       // }
+//     }
+//   }
+// }
